@@ -17,7 +17,6 @@ enum AdState {
     case completed
     case failed(AdError)
 }
-
 enum AdError: Error, LocalizedError {
     case networkFailure
     case timeout
