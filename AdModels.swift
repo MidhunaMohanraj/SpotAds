@@ -8,7 +8,6 @@ enum AdFormat: String, Codable, CaseIterable {
     case audio       = "audio"
     case interstitial = "interstitial"
 }
-
 enum AdState {
     case idle
     case loading
