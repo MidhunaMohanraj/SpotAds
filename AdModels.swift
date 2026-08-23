@@ -60,7 +60,6 @@ struct AdPayload: Identifiable, Codable, Equatable {
 }
 
 // MARK: - Ad Event (Analytics)
-
 struct AdEvent: Codable {
     enum EventType: String, Codable {
         case request
